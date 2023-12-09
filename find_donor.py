@@ -8,7 +8,7 @@ def find_donors_page():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="sidd",
+        password="password",
         database="blood_bank_management"
     )
     cursor = connection.cursor()
