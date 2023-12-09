@@ -6,7 +6,7 @@ def add_donation(donor_id, blood_group, donation_date):
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="sidd",
+        password="password",
         database="blood_bank_management"
     )
     cursor = connection.cursor()
@@ -37,7 +37,7 @@ def inventory_page(filter_blood_group=None):
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="sidd",
+        password="password",
         database="blood_bank_management"
     )
     cursor = connection.cursor()
